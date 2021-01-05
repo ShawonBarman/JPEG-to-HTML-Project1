@@ -1,0 +1,285 @@
+body{
+    margin: 0px;
+    font-family: helvetica;
+}
+h1, h2, h3, h4{
+    color: #2d78d2;
+}
+p{
+    color: #666;
+    font-size: 14px;
+    line-height: 20px;
+}
+a{
+    color: #666;
+}
+.stable{
+    width: 960px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+.header_area{
+    background: #ededed;
+}
+.header{
+    
+}
+.header_left{
+    width: 60%;
+    float: left;
+}
+.header_left img{
+    padding: 15px 0px;
+    float:left; 
+}
+.header_right{
+    width: 40%;
+    float: right;
+    padding-top: 12px;
+}
+.header_right ul{
+    list-style: none;
+    /*display: inline;*/
+    float: right;
+}
+.header_right ul li{
+    display: inline;
+    float: left;
+    padding: 5px;
+}
+.header_right ul li img{
+    
+}
+.intro_area{
+    background-image: url(image/promo_bg.jpg);
+}
+.intro{
+    
+}
+.intro_left{
+    width: 65%;
+    float: left;
+}
+.intro_left_top{
+    
+}
+.intro_left_top h1{
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 31px;
+    /*padding-top: 10px;*/
+    color: #4c4c4c;
+    padding-top: 20px;
+}
+.intro_left_top p{
+    
+}
+.intro_left_bottom{
+    float: left;
+    width: 100%;
+    background: #f6f6f6;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+.feature_title{
+    
+}
+.feature_title h2{
+    background: #5AA6E4;
+    color: #fff;
+    font-weight: normal;
+    font-size: 19px;
+    font-style: italic;
+    padding: 7px;
+    padding-left: 10px;
+    margin-top: 0px;
+}
+.feature_list{
+    float: left;
+    width: 62%;
+}
+.feature_list ul{
+    list-style: none;
+    padding-left: 15px;
+}
+.feature_list ul li{
+    background: url(image/ok.jpg) no-repeat scroll 0 0 #f6f6f6;
+    line-height: 36px;
+    padding-left: 42px;
+    color: #666;
+    font-size: 14px;
+    
+}
+.feature_image{
+    float: right;
+    width: 38%;
+}
+.feature_image img{
+    
+}
+.intro_right{
+    width: 30%;
+    float: right;
+}
+.intro_right img{
+    padding-top: 25px;
+}
+.content_area{
+    
+}
+.content{
+    
+}
+.content_top{
+    margin-top: 55px;
+    float: left;
+    border: 1px solid #ddd;
+    margin-bottom: 35px;
+}
+.content_top_left{
+    width: 56%;
+    float: left;
+    padding-left: 15px;
+}
+.content_top_left h2{
+    font-weight: normal;
+    font-size: 21px;
+    padding-top: 10px;
+}
+.content_top_left p{
+    margin: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.chat_box_text{
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 90%;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 26px;
+}
+.chat_box_text img{
+    position: absolute;
+    margin-top: -17px;
+    margin-left: -35px;
+}
+.chat_box_text p{
+    font-size: 13px;
+    padding-left: 50px;
+    padding-top: 15px;
+}
+.anther_name{
+    float: right;
+    padding-right: 30px;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: gray;
+}
+.content_top_right{
+    width: 35%;
+    float: right;
+    padding-top: 20px;
+}
+.content_top_right img{
+    padding-top: 5px;
+}
+.content_bottom{
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.testimonial_heading{
+    
+}
+.testimonial_heading h1{
+    font-weight: normal;
+    font-size: 25px;
+    background: url(image/chat.jpg) no-repeat;
+    margin: 0 auto;
+    width: 50%;
+    padding-left: 32px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.testimonial_content{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    padding: 10px 0px 25px 0px;
+}
+.testimonial_content img{
+    
+}
+.testimonial_content p{
+    width: 65%;
+    margin: 0 auto;
+}
+.qoute_left{
+    float: left;
+    margin-top: -15px;
+}
+.qoute_right{
+    float: right;
+    margin-top: -5px;
+}
+.image{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.image img{
+    
+}
+.footer_area{
+    background: #ededed;
+}
+.footer{
+    
+}
+.footer_left{
+    width: 70%;
+    float: left;
+    display: block;
+}
+.footer_left h3{
+    font-weight: normal;
+    font-size: 12px;
+    padding-top: 15px;
+}
+.copyright{
+    
+}
+.copyright p{
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.copyright p a{
+    
+}
+.footer_right{
+    width: 30%;
+    float: right;
+    display: block;
+}
+.footer_right h3{
+    font-weight: normal;
+    font-size: 12px;
+    padding-left: 145px;
+    padding-top: 25px;
+    margin: 0;
+}
+.footer_right ul{
+    list-style: none;
+    float: right;
+}
+.footer_right ul li{
+    display: inline;
+    padding: 4px;
+    float: left;
+}
